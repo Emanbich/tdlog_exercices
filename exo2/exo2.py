@@ -27,4 +27,7 @@ fixed_tests_False = (
     ( "this",    "fails" ),
     ( "spam",    "eggs"  )
 )
-"""
+"""  
+def solution(input_str, ending_str):
+    return input_str.endswith(ending_str)
+
